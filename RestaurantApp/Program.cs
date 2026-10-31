@@ -11,7 +11,9 @@ namespace RestaurantApp
         static void Main(string[] args)
         {
             Console.WriteLine("MU HA HA HA HA");
-
+            Console.WriteLine("pattanan mullamom no.10");
+            Console.WriteLine("pongsakorn hong no.11");
+            Console.WriteLine("thanawat chantawat no.4");
             List<Restaurant> restaurants = new List<Restaurant>
         {
             new Restaurant(1, "Quanjude Roast Duck", "Beijing Cuisine", 4.5),
