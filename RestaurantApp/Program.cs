@@ -12,9 +12,9 @@ namespace RestaurantApp
         {
             Console.WriteLine("MU HA HA HA HA");
             Console.WriteLine("pattanan mullamom no.10");
-            Console.WriteLine("kang");
             Console.WriteLine("pongsakorn hong no.11");
             Console.WriteLine("thanawat chantawat no.4");
+            Console.WriteLine("Dingdome");
             List<Restaurant> restaurants = new List<Restaurant>
         {
             new Restaurant(1, "Quanjude Roast Duck", "Beijing Cuisine", 4.5),
