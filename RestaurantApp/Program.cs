@@ -23,13 +23,20 @@ namespace RestaurantApp
             new Restaurant(2, "Donglaishun Hot Pot", "Hot Pot", 4.6),
             new Restaurant(3, "Din Tai Fung", "Taiwanese Cuisine", 4.7)
         };
-            foreach (var item in restaurants)
+            bool found = false;
 
+            foreach (var item in restaurants)
             {
                 if (item.Rate >= 4.5)
                 {
                     Console.WriteLine($"{item.Name} Type:{item.Type} -- {item.Rate}");
+                    found = true;
                 }
+            }
+
+            if (!found)
+            {
+                Console.WriteLine("ไม่พบร้านอาหารที่มีคะแนน 4.5 ขึ้นไป");
             }
         }
     }
