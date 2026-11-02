@@ -26,6 +26,7 @@ namespace RestaurantApp
             bool found = false;
 
             foreach (var item in restaurants)
+
             {
                 if (item.Rate >= 4.5)
                 {
