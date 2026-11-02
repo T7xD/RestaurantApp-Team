@@ -12,6 +12,7 @@ namespace RestaurantApp
         {
             Console.WriteLine("MU HA HA HA HA");
             Console.WriteLine("pattanan mullamom no.10");
+            Console.WriteLine("kang");
             Console.WriteLine("pongsakorn hong no.11");
             Console.WriteLine("thanawat chantawat no.4");
             Console.WriteLine("Dingdome");
