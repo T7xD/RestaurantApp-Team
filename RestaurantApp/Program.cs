@@ -8,6 +8,7 @@ namespace RestaurantApp
 {
     internal class Program
     {
+       
         static void Main(string[] args)
         {
             Console.WriteLine("MU HA HA HA HA");
@@ -17,12 +18,29 @@ namespace RestaurantApp
             Console.WriteLine("tiw");
             Console.WriteLine("thanawat chantawat no.4");
             Console.WriteLine("Dingdome");
+
+            
             List<Restaurant> restaurants = new List<Restaurant>
         {
             new Restaurant(1, "Quanjude Roast Duck", "Beijing Cuisine", 4.5),
             new Restaurant(2, "Donglaishun Hot Pot", "Hot Pot", 4.6),
             new Restaurant(3, "Din Tai Fung", "Taiwanese Cuisine", 4.7)
         };
+            Console.WriteLine("Enter Name Restaruants");
+            string Name = Console.ReadLine();
+            Console.WriteLine("Enter Type");
+            string Tyep = Console.ReadLine();
+            Console.WriteLine("Enter Rate");
+            string rate = Console.ReadLine();
+
+            double Rate = double.Parse(rate);
+
+            int Id = restaurants.Count+1;
+
+            restaurants.Add(new Restaurant(Id, Name, Tyep, Rate));
+            Console.WriteLine("nice");
+
+
             foreach (var item in restaurants)
             {
                 Console.WriteLine($"{item.Name} Type:{item.Type} -- {item.Rate}");
