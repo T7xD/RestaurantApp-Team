@@ -12,7 +12,6 @@ namespace RestaurantApp
         {
             Console.WriteLine("MU HA HA HA HA");
             Console.WriteLine("pattanan mullamom no.10");
-            Console.WriteLine("kang");
             Console.WriteLine("pongsakorn hong no.11");
             Console.WriteLine("tiw"); 
             Console.WriteLine("thanawat chantawat no.4");
@@ -26,6 +25,7 @@ namespace RestaurantApp
             bool found = false;
 
             foreach (var item in restaurants)
+
             {
                 if (item.Rate >= 4.5)
                 {
