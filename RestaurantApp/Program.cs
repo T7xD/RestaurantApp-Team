@@ -35,7 +35,7 @@ namespace RestaurantApp
 
             double Rate = double.Parse(rate);
 
-            int Id = restaurants.Count+1;
+            int Id = restaurants.Count + 1;
 
             restaurants.Add(new Restaurant(Id, Name, Tyep, Rate));
             Console.WriteLine("nice");
